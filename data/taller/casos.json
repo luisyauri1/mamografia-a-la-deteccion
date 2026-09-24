@@ -13,9 +13,11 @@
     "evaluacion": "4",
     "patologia": "MALIGNANT",
     "sutileza": "4",
-    "imagen": "masa_1.png",
-    "mascara": "masa_1_mask.png",
-    "origen_csv": "mass_case_description_train_set.csv"
+    "imagen": "dicom/masa_1_imagen.dcm",
+    "mascara": "dicom/masa_1_mascara.dcm",
+    "origen_csv": "mass_case_description_train_set.csv",
+    "origen_dicom_imagen": "Mass-Training_P_00001_LEFT_CC/07-20-2016-DDSM-NA-74994/1.000000-full mammogram images-24515/1-1.dcm",
+    "origen_dicom_mascara": "Mass-Training_P_00001_LEFT_CC_1/07-21-2016-DDSM-NA-39106/1.000000-ROI mask images-99650/1-1.dcm"
   },
   {
     "id": "masa_2",
@@ -31,9 +33,11 @@
     "evaluacion": "4",
     "patologia": "BENIGN",
     "sutileza": "3",
-    "imagen": "masa_2.png",
-    "mascara": "masa_2_mask.png",
-    "origen_csv": "mass_case_description_train_set.csv"
+    "imagen": "dicom/masa_2_imagen.dcm",
+    "mascara": "dicom/masa_2_mascara.dcm",
+    "origen_csv": "mass_case_description_train_set.csv",
+    "origen_dicom_imagen": "Mass-Training_P_00004_LEFT_CC/07-20-2016-DDSM-NA-95697/1.000000-full mammogram images-46540/1-1.dcm",
+    "origen_dicom_mascara": "Mass-Training_P_00004_LEFT_CC_1/07-21-2016-DDSM-NA-30167/1.000000-ROI mask images-50375/1-1.dcm"
   },
   {
     "id": "calcificaciones",
@@ -49,8 +53,10 @@
     "evaluacion": "3",
     "patologia": "MALIGNANT",
     "sutileza": "3",
-    "imagen": "calcificaciones.png",
-    "mascara": "calcificaciones_mask.png",
-    "origen_csv": "calc_case_description_train_set.csv"
+    "imagen": "dicom/calcificaciones_imagen.dcm",
+    "mascara": "dicom/calcificaciones_mascara.dcm",
+    "origen_csv": "calc_case_description_train_set.csv",
+    "origen_dicom_imagen": "Calc-Training_P_00005_RIGHT_CC/08-07-2016-DDSM-NA-23157/1.000000-full mammogram images-38548/1-1.dcm",
+    "origen_dicom_mascara": "Calc-Training_P_00005_RIGHT_CC_1/08-30-2017-DDSM-NA-09081/1.000000-cropped images-94682/1-1.dcm"
   }
 ]
