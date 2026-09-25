@@ -13,11 +13,16 @@
     "evaluacion": "4",
     "patologia": "MALIGNANT",
     "sutileza": "4",
-    "imagen": "dicom/masa_1_imagen.dcm",
-    "mascara": "dicom/masa_1_mascara.dcm",
+    "imagen": "imagenes/masa_1.png",
     "origen_csv": "mass_case_description_train_set.csv",
     "origen_dicom_imagen": "Mass-Training_P_00001_LEFT_CC/07-20-2016-DDSM-NA-74994/1.000000-full mammogram images-24515/1-1.dcm",
-    "origen_dicom_mascara": "Mass-Training_P_00001_LEFT_CC_1/07-21-2016-DDSM-NA-39106/1.000000-ROI mask images-99650/1-1.dcm"
+    "origen_dicom_mascara": "Mass-Training_P_00001_LEFT_CC_1/07-21-2016-DDSM-NA-39106/1.000000-ROI mask images-99650/1-1.dcm",
+    "recuadro_referencia": [
+      270,
+      2422,
+      661,
+      2897
+    ]
   },
   {
     "id": "masa_2",
@@ -33,14 +38,19 @@
     "evaluacion": "4",
     "patologia": "BENIGN",
     "sutileza": "3",
-    "imagen": "dicom/masa_2_imagen.dcm",
-    "mascara": "dicom/masa_2_mascara.dcm",
+    "imagen": "imagenes/masa_2.png",
     "origen_csv": "mass_case_description_train_set.csv",
     "origen_dicom_imagen": "Mass-Training_P_00004_LEFT_CC/07-20-2016-DDSM-NA-95697/1.000000-full mammogram images-46540/1-1.dcm",
-    "origen_dicom_mascara": "Mass-Training_P_00004_LEFT_CC_1/07-21-2016-DDSM-NA-30167/1.000000-ROI mask images-50375/1-1.dcm"
+    "origen_dicom_mascara": "Mass-Training_P_00004_LEFT_CC_1/07-21-2016-DDSM-NA-30167/1.000000-ROI mask images-50375/1-1.dcm",
+    "recuadro_referencia": [
+      1417,
+      3500,
+      1800,
+      3926
+    ]
   },
   {
-    "id": "calcificaciones",
+    "id": "calcificaciones_1",
     "patient_id": "P_00005",
     "lado": "RIGHT",
     "vista": "CC",
@@ -53,10 +63,140 @@
     "evaluacion": "3",
     "patologia": "MALIGNANT",
     "sutileza": "3",
-    "imagen": "dicom/calcificaciones_imagen.dcm",
-    "mascara": "dicom/calcificaciones_mascara.dcm",
+    "imagen": "imagenes/calcificaciones_1.png",
     "origen_csv": "calc_case_description_train_set.csv",
     "origen_dicom_imagen": "Calc-Training_P_00005_RIGHT_CC/08-07-2016-DDSM-NA-23157/1.000000-full mammogram images-38548/1-1.dcm",
-    "origen_dicom_mascara": "Calc-Training_P_00005_RIGHT_CC_1/08-30-2017-DDSM-NA-09081/1.000000-cropped images-94682/1-1.dcm"
+    "origen_dicom_mascara": "Calc-Training_P_00005_RIGHT_CC_1/08-30-2017-DDSM-NA-09081/1.000000-cropped images-94682/1-1.dcm",
+    "recuadro_referencia": [
+      1585,
+      2669,
+      2222,
+      3218
+    ]
+  },
+  {
+    "id": "masa_3",
+    "patient_id": "P_00009",
+    "lado": "RIGHT",
+    "vista": "CC",
+    "tipo": "mass",
+    "densidad": "3",
+    "forma": "OVAL",
+    "margen": "ILL_DEFINED",
+    "tipo_calcificacion": null,
+    "distribucion": null,
+    "evaluacion": "4",
+    "patologia": "MALIGNANT",
+    "sutileza": "4",
+    "imagen": "imagenes/masa_3.png",
+    "recuadro_referencia": [
+      485,
+      2176,
+      685,
+      2357
+    ],
+    "origen_csv": "mass_case_description_train_set.csv",
+    "origen_dicom_imagen": "Mass-Training_P_00009_RIGHT_CC/07-20-2016-DDSM-NA-71955/1.000000-full mammogram images-15839/1-1.dcm",
+    "origen_dicom_mascara": "Mass-Training_P_00009_RIGHT_CC_1/07-21-2016-DDSM-NA-66714/1.000000-ROI mask images-42192/1-1.dcm"
+  },
+  {
+    "id": "masa_4",
+    "patient_id": "P_00018",
+    "lado": "RIGHT",
+    "vista": "CC",
+    "tipo": "mass",
+    "densidad": "2",
+    "forma": "OVAL",
+    "margen": "CIRCUMSCRIBED",
+    "tipo_calcificacion": null,
+    "distribucion": null,
+    "evaluacion": "4",
+    "patologia": "BENIGN",
+    "sutileza": "5",
+    "imagen": "imagenes/masa_4.png",
+    "recuadro_referencia": [
+      1894,
+      1388,
+      2198,
+      1654
+    ],
+    "origen_csv": "mass_case_description_train_set.csv",
+    "origen_dicom_imagen": "Mass-Training_P_00018_RIGHT_CC/07-20-2016-DDSM-NA-18937/1.000000-full mammogram images-64601/1-1.dcm",
+    "origen_dicom_mascara": "Mass-Training_P_00018_RIGHT_CC_1/07-21-2016-DDSM-NA-92063/1.000000-ROI mask images-81067/1-1.dcm"
+  },
+  {
+    "id": "calcificaciones_2",
+    "patient_id": "P_00007",
+    "lado": "LEFT",
+    "vista": "CC",
+    "tipo": "calcification",
+    "densidad": "4",
+    "forma": null,
+    "margen": null,
+    "tipo_calcificacion": "PLEOMORPHIC",
+    "distribucion": "LINEAR",
+    "evaluacion": "4",
+    "patologia": "BENIGN",
+    "sutileza": "4",
+    "imagen": "imagenes/calcificaciones_2.png",
+    "recuadro_referencia": [
+      1416,
+      1260,
+      1953,
+      1901
+    ],
+    "origen_csv": "calc_case_description_train_set.csv",
+    "origen_dicom_imagen": "Calc-Training_P_00007_LEFT_CC/08-07-2016-DDSM-NA-72222/1.000000-full mammogram images-68297/1-1.dcm",
+    "origen_dicom_mascara": "Calc-Training_P_00007_LEFT_CC_1/09-06-2017-DDSM-NA-59880/1.000000-ROI mask images-52041/1-2.dcm"
+  },
+  {
+    "id": "calcificaciones_3",
+    "patient_id": "P_00011",
+    "lado": "LEFT",
+    "vista": "CC",
+    "tipo": "calcification",
+    "densidad": "3",
+    "forma": null,
+    "margen": null,
+    "tipo_calcificacion": "PLEOMORPHIC",
+    "distribucion": "CLUSTERED",
+    "evaluacion": "4",
+    "patologia": "BENIGN",
+    "sutileza": "1",
+    "imagen": "imagenes/calcificaciones_3.png",
+    "recuadro_referencia": [
+      2045,
+      1309,
+      2462,
+      1566
+    ],
+    "origen_csv": "calc_case_description_train_set.csv",
+    "origen_dicom_imagen": "Calc-Training_P_00011_LEFT_CC/08-07-2016-DDSM-NA-68211/1.000000-full mammogram images-60014/1-1.dcm",
+    "origen_dicom_mascara": "Calc-Training_P_00011_LEFT_CC_1/09-06-2017-DDSM-NA-17919/1.000000-ROI mask images-22478/1-2.dcm"
+  },
+  {
+    "id": "calcificaciones_4",
+    "patient_id": "P_00012",
+    "lado": "LEFT",
+    "vista": "CC",
+    "tipo": "calcification",
+    "densidad": "2",
+    "forma": null,
+    "margen": null,
+    "tipo_calcificacion": "PLEOMORPHIC",
+    "distribucion": "CLUSTERED",
+    "evaluacion": "4",
+    "patologia": "MALIGNANT",
+    "sutileza": "4",
+    "imagen": "imagenes/calcificaciones_4.png",
+    "recuadro_referencia": [
+      584,
+      1248,
+      1521,
+      2073
+    ],
+    "origen_csv": "calc_case_description_train_set.csv",
+    "origen_dicom_imagen": "Calc-Training_P_00012_LEFT_CC/08-07-2016-DDSM-NA-44292/1.000000-full mammogram images-14995/1-1.dcm",
+    "origen_dicom_mascara": "Calc-Training_P_00012_LEFT_CC_1/09-06-2017-DDSM-NA-68935/1.000000-ROI mask images-76932/1-2.dcm"
   }
 ]
